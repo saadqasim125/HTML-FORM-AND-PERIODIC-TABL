@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Admission Form</title>
+</head>
+<body>
+
+    <h2>Admission Form</h2>
+
+    <form>
+
+        <h3>Personal Information</h3>
+
+        Full Name:<br>
+        <input type="text" name="fullname" autofocus><br><br>
+
+        Father Name:<br>
+        <input type="text" name="fathername"><br><br>
+
+        Date of Birth:<br>
+        <input type="date" name="dob"><br><br>
+
+        Gender:<br>
+        <input type="radio" name="gender" value="male"> Male
+        <input type="radio" name="gender" value="female"> Female<br><br>
+
+
+        <h3>Contact Information</h3>
+
+        Email:<br>
+        <input type="email" name="email"><br><br>
+
+        Phone Number:<br>
+        <input type="tel" name="phone"><br><br>
+
+        Address:<br>
+        <textarea name="address"></textarea><br><br>
+
+
+        <h3>Course Details</h3>
+
+        Select Course:<br>
+        <select name="course">
+            <option value="web">Web Development</option>
+            <option value="app">App Development</option>
+            <option value="graphic">Graphic Designing</option>
+            <option value="excel">Advanced Excel</option>
+        </select><br><br>
+
+        Preferred Timing:<br>
+        <input type="radio" name="timing" value="morning"> Morning
+        <input type="radio" name="timing" value="evening"> Evening<br><br>
+
+
+        <input type="submit" value="Submit Form">
+        <input type="reset" value="Reset">
+
+    </form>
+
+</body>
+</html>
